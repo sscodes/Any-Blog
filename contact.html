@@ -7,94 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link  href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<script src="https://kit.fontawesome.com/f58878145b.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<title>Contact | Any Blog</title>
-	<style type="text/css">
-		#id1,#id2
-		{
-			float: left;
-			padding:  20px 70px;
-			width: 1396px;
-			margin: 0 auto;
-			background-color: red;
-		}
-		#id2
-		{
-			height: 50px;
-		}
-		.mainarticles
-		{
-			width: 1000px;
-			float: left;
-			border: 1px solid white;
-			background-color: white;
-			padding-left: 20px;
-			padding-right: 20px;
-			margin-left: 200px;
-			margin-bottom: 75px;
-
-		}
-		body
-		{
-			margin: 0;
-			background-color: #E6E6FA;
-		}
-		header nav ul
-		{
-			float: left;
-			position: relative;
-			top: -150px;
-			left: 350px;
-		}
-		header nav ul li
-		{
-			float: left;
-			padding: 20px 50px;
-		}
-		header nav a
-		{
-			text-decoration: none;
-			color: black;
-			font-size: 25px;
-			font-family: Lobster;
-			padding: 20px;
-			border-top-right-radius: 50px;
-			border-bottom-right-radius: 50px;
-			border-top-left-radius: 50px;
-			border-bottom-left-radius: 50px;
-		}
-		article h2:hover
-		{
-			text-decoration: underline;
-		}
-		nav a:hover
-		{
-			color: red;
-			background-color: white;			
-			text-decoration: underline;
-		}
-		header ul
-		{	
-			float: left;
-			list-style: none;			
-		}
-		header ul li
-		{
-			float: left;
-		}
-		button
-		{
-			font-size: 20px;
-			background: linear-gradient(to top, white, red);
-			height: 50px;
-			width: 200px;
-		}
-		button:hover
-		{
-			background: linear-gradient(to top, red, white);
-			height: 50px;
-			width: 200px;
-		}
-	</style>
 </head>
 <body>
 	<header>	
@@ -113,8 +27,9 @@
 			</ul>
 		</nav>				
 	</header>
-	<section class="mainarticles">
-		<h2 style="font-size: 50px; text-decoration: underline;" align="center">Contact</h2>
+	<div>
+	<section class="mainarticles" style="">
+		<h2 style="font-size: 50px; text-decoration: underline; text-align:center; margin-bottom:25px;">Contact</h2>
 		<div style="font-size: 30px; text-decoration: underline;" align="center">
 			<h4>Our Offices & Branches</h4>
 		</div>
@@ -169,26 +84,24 @@
 		<br/>
 		<br/>
 		<br/>
-		<br/>
-		<br/>
-		<div style="font-size: 30px; text-decoration: underline;" align="center">
-			<h4>Send us a message:</h4>
+		<div style="font-size: 30px; text-decoration: underline;">
+			<h4 style="margin-bottom:20px; text-align: center;">Send us a message:</h4>
 		</div>
-		<div align="center">
+		<div align="center" style="margin-top:30px">
 			<form method="post" action="#">
-				<input type="text" name="Usr_Nam" placeholder="Name" style="padding: 5px; height: 25px; width: 300px; font-size: 20px;">
+				<input type="text" name="Usr_Nam" placeholder="Name">
 				<br/>
 				<br/>
-				<input type="email" name="e_mail" placeholder="E-Mail" style="padding: 5px; height: 25px; width: 300px; font-size: 20px;">
+				<input type="email" name="e_mail" placeholder="E-Mail">
 				<br/>
 				<br/>
-				<input type="text" name="sub" placeholder="Subject" style="padding: 5px; height: 25px; width: 300px; font-size: 20px;">
+				<input type="text" name="sub" placeholder="Subject">
 				<br/>
 				<br/>
-				<textarea rows="10" cols="100" placeholder="Write your message here" style="padding: 5px; font-size: 15px;"></textarea>
+				<textarea rows="10" cols="100" placeholder="Write your message here"></textarea>
 				<br/>
 				<br/>
-				<button name="subject" type="submit" value="post" style="padding: 5px; height: 40px; width: 300px; font-size: 20px;">Send Message</button>
+				<button name="subject" type="submit" value="post">Send Message</button>
 			</form>
 			<br/>
 		</div>
