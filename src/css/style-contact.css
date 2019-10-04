@@ -1,0 +1,85 @@
+#id1,#id2
+		{
+			float: left;
+			padding:  20px 70px;
+			width: 1396px;
+			margin: 0 auto;
+			background-color: red;
+		}
+		#id2
+		{
+			height: 50px;
+		}
+		.mainarticles
+		{
+			width: 1000px;
+			float: left;
+			border: 1px solid white;
+			background-color: white;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-left: 200px;
+			margin-bottom: 75px;
+
+		}
+		body
+		{
+			margin: 0;
+			background-color: #E6E6FA;
+		}
+		header nav ul
+		{
+			float: left;
+			position: relative;
+			top: -150px;
+			left: 350px;
+		}
+		header nav ul li
+		{
+			float: left;
+			padding: 20px 50px;
+		}
+		header nav a
+		{
+			text-decoration: none;
+			color: black;
+			font-size: 25px;
+			font-family: Lobster;
+			padding: 20px;
+			border-top-right-radius: 50px;
+			border-bottom-right-radius: 50px;
+			border-top-left-radius: 50px;
+			border-bottom-left-radius: 50px;
+		}
+		article h2:hover
+		{
+			text-decoration: underline;
+		}
+		nav a:hover
+		{
+			color: red;
+			background-color: white;			
+			text-decoration: underline;
+		}
+		header ul
+		{	
+			float: left;
+			list-style: none;			
+		}
+		header ul li
+		{
+			float: left;
+		}
+		button
+		{
+			font-size: 20px;
+			background: linear-gradient(to top, white, red);
+			height: 50px;
+			width: 200px;
+		}
+		button:hover
+		{
+			background: linear-gradient(to top, red, white);
+			height: 50px;
+			width: 200px;
+		}
