@@ -1,0 +1,258 @@
+:root{
+    --bg-white: white;
+    --bg-cyan: #0073AA;
+}
+
+/* ============ Estilo de la cabecera ============ */
+
+body{
+    margin: 0 auto;
+    background-color: #F1F1F1;
+}
+
+#navbar
+{
+    padding: 20px 0 20px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--bg-cyan, #0073AA);
+    float: left;
+}
+
+#navbar a{
+    float: left;
+}
+
+.navbar-logo{
+    padding-left: 75px;
+}
+
+header ul{	
+    position: relative;
+    list-style: none;	
+    float: right;	
+    padding-top: 25px;	
+    padding-right: 125px;
+}
+
+header ul li{
+    padding: 15px 70px 15px 70px;
+    position: relative;
+    float: left;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Lobster;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+header a:hover
+{
+    color: black;
+    background-color: white;			
+    text-decoration: underline;
+}
+
+/* Estilo del contenido principal  */
+
+#container{
+    width: 65%;
+    min-width: 920px;
+    padding-top: 50px;
+    float: left;
+}
+
+.mainarticles{
+    float: left;
+    border: 1px solid white;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(121, 121, 121), 
+                1px -1px 5px rgb(121, 121, 121),
+                -1px 1px 5px rgb(121, 121, 121),
+                -1px -1px 5px rgb(121, 121, 121);
+    padding-left: 1px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.mainarticles h2{
+    width: 500px;
+    position: relative;
+    top: -250px;
+    padding-left: 350px;
+}
+
+#lastmainarticles{
+    float: left;
+    border: 1px solid white;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(121, 121, 121), 
+                1px -1px 5px rgb(121, 121, 121),
+                -1px 1px 5px rgb(121, 121, 121),
+                -1px -1px 5px rgb(121, 121, 121);
+    padding-left: 1px;
+    margin-left: 50px;
+}
+
+#lastmainarticles h2{
+    width: 500px;
+    position: relative;
+    top: -250px;
+    padding-left: 350px;
+}
+
+/* Estilo del sidebar */
+
+.sidebar{
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 5px rgb(121, 121, 121), 
+                1px -1px 5px rgb(121, 121, 121),
+                -1px 1px 5px rgb(121, 121, 121),
+                -1px -1px 5px rgb(121, 121, 121);
+    margin: 50px 0 0 50px;
+}
+
+.sidebar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.sidebar ul a:hover{
+    text-decoration: underline;
+}
+
+.sidebar ul{
+    float: left;
+    list-style: none;
+    margin-top: -5px;
+}
+
+.sidebar ul li{
+    padding: 10px;
+    margin-left: -50px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+/* ============ Estilo del footer ============ */
+footer {
+    float: left;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color:  var(--bg-cyan, #0073AA);;
+}
+
+.bottomtextl{
+    float: left;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: grey;
+}
+
+.bottomtextr{
+    float: right;
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top: 20px;
+}
+
+input{
+    float: left;
+    padding: 10px;
+    width: 80%;
+    font-size: 17px;
+}
+
+input[type=text]:hover{
+    box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px #0073AA; 
+    -moz-box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px #0073AA; 
+    -webkit-box-shadow: inset 0 1px rgba(34, 25, 25, 0.2), 0 1px rgba(255, 255, 255, 0.6), 0 0 7px #0073AA;
+}
+
+input[type=submit]{
+    position: relative;
+    height: 36px;
+    width: 36px;
+    top: 4px;
+    right: 40px;
+    background: url(../../search-icon-vector.jpg);
+    border-style: none;
+}
+
+h3{
+    width: 450px;
+    font-size: 15px;
+    position: relative;
+    top: -250px;
+    padding-left: 350px;
+    margin: 0px;
+    margin-bottom: -220px;
+}
+hr
+{
+    width: auto;
+    margin-left: 0px;
+}
+
+article h2:hover
+{
+    text-decoration: underline;
+}
+
+
+/* Media query para hacer la pagina apta para dispositivos móviles: Tablets, Ipad, etc. */
+@media only screen and (max-width: 840px){
+
+    #navbar{
+        padding: 20px 40px; 
+    }
+
+    header ul li {
+        padding:  15px 50px 50px 10px;
+    }
+
+    #navbar a{
+        float: left;
+    }
+
+}
+
+/* Media query para hacer la pagina apta para dispositivos móviles: Tablets, Ipad, etc. */
+@media only screen and (max-width: 760px){
+
+    header ul li {
+        padding:  15px 20px 20px 10px;
+    }
+
+    header a{
+        font-size: 20px;
+    }
+
+}
+
+/* Media query para hacer la pagina apta para dispositivos móviles: celulares */
+@media only screen and (max-width: 560px){
+
+    header ul {
+        display: none;
+    }
+
+}
